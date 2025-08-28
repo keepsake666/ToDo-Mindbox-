@@ -1,0 +1,29 @@
+.addTaskContainer {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.input {
+  flex: 1;
+}
+
+.button {
+  flex-shrink: 0;
+  height: 56px;
+}

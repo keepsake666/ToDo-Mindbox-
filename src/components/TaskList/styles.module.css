@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.sectionHeader:hover {
+  background-color: #f8f9fa;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.sectionTitleContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.expandIcon {
+  font-size: 16px;
+  color: #666;
+}
+
+.expandIcon.expanded {
+  transform: rotate(180deg);
+}
+
+.taskList {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.clearButton {
+  flex-shrink: 0;
+}
+
+.stats {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #e9ecef;
+}
+
+.stats p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #495057;
+}
