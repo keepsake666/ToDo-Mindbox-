@@ -1,6 +1,6 @@
 # TODOS
 
-[Проект на vercel](https://top-vert.vercel.app).
+[Проект на vercel](https://to-do-mindbox.vercel.app/).
 
 ## Запуск проекта
 
